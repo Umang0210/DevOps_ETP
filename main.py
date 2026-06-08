@@ -3,8 +3,8 @@ def add(a, b):
 
 
 def main():
-    first_number = int(input("Enter the first number: "))
-    second_number = int(input("Enter the second number: "))
+    first_number = int(input("Enter the first number: \n"))
+    second_number = int(input("Enter the second number: \n"))
     total = add(first_number, second_number)
 
     print("First Number: ", first_number)
